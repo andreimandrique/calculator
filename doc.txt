@@ -1,0 +1,24 @@
+switch (elementContent) {
+        case '+':
+            operator = '+';
+            stepTwo = true;
+            break;
+        case '-':
+            operator = '-';
+            stepTwo = true;
+            break;
+        case 'X':
+            operator = '*';
+            stepTwo = true;
+            break;
+        case '/':
+            operator = '/';
+            stepTwo = true;
+            break;
+        default:
+            break;
+    }
+    console.log(elementContent);
+    console.log(`Have a Operator ${stepTwo}`);
+
+    

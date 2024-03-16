@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border: 1px solid black;
+    margin-top: 4rem;
+    padding: 2rem;
+}
+#display{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    font-size: large;
+    width: 22rem;
+    height: 4rem;
+}
+.btn-con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.btn-design{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: xx-large;
+}
+.btn-design:hover{
+    cursor: pointer;
+}

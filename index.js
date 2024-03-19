@@ -71,7 +71,7 @@ btn.forEach((button) => {
         }
       }else{
         //if the calculator start and there is no operator
-        console.log("no operator");
+        console.log("You can't start as clicking the operator first");
       }
     }
     //if i press equal or clear button
